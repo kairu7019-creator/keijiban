@@ -64,7 +64,7 @@ always();
 
 function add(honbun = naiyo.value || document.querySelector('submit').disabled, name = username.value || "名無しさん", time = new Date().toLocaleString()) {
       const li = document.createElement('li');
-      const number = ul.children.length + 2;
+      const number = ul.children.length + 1;
 
       li.innerHTML = `
         <span class="number">${number}.</span>
