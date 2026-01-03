@@ -7,6 +7,16 @@ body {
   padding: 10px;
   font-size: 14px;
 }
+/* スレタイ */
+#thread-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #cc0000;
+  background: #ffffff;
+  border: 1px solid #ccc;
+  padding: 6px;
+  margin-bottom: 8px;
+}
 
 /* フォーム */
 form {
